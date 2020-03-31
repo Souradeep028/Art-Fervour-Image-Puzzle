@@ -108,8 +108,8 @@ var ImagePuzzle_ImageActions = {
 		img.onload = function(){
 			
 			//maximum image size
-			canvas.width = screen.width/2 + 100;
-			canvas.height = screen.height/2 + 100;
+			canvas.width = screen.width/2.5 + 100;
+			canvas.height = screen.height/2.5 + 100;
 			ctx.drawImage(img,0,0,screen.width/2 + 100,screen.height/2 + 100); 
 
 			callback(canvas);

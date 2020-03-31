@@ -1367,7 +1367,9 @@ div.ui-mobile-viewport {
   overflow: hidden;
   white-space: nowrap;
   outline: 0 !important;
-  color: #000;
+  color: white;
+  border-radius: 44px;
+  background: #333;
 }
 .ui-footer .ui-title {
   margin: 0 1em;

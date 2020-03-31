@@ -1348,7 +1348,7 @@ div.ui-mobile-viewport {
 .ui-header,
 .ui-footer {
   border-width: 1px 0;
-  border-style: solid;
+  /* border-style: solid; */
   position: relative;
 }
 .ui-header:empty,
@@ -2821,7 +2821,7 @@ li.ui-block-e {
 }
 .ui-footer-fixed {
   bottom: -1px;
-  padding-bottom: 1px;
+  padding-bottom: 8px;
 }
 .ui-footer-fixed.ui-fixed-hidden {
   bottom: 0;

@@ -4,14 +4,14 @@ $(document).ready(function() {
 	    $('#imageTextfield').val($(this).children('a').children('img').attr('src'));
 	});
 	
-	$('.loadChooseUI').click(function(){
+(function run(){
 		
 		ImagePuzzle_Utils.loadChooseUI();
 		$('#gameContainer').attr('style', 'display:none');
 		$('#chooseContainer').attr('style', 'display:inline');
 		$('#moveCount').html('0');
 		clearInterval(ImagePuzzle_Game.timerIntervalId);
-	});
+	})();
 	
 	document.getElementById('submit').addEventListener('click', function(event) {
 		

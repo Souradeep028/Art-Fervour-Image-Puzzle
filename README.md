@@ -1,1 +1,1 @@
-# Art-Fervour-Image-Puzzle
+# ArtFervour-Image-Puzzle
